@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8"/>
+		<title>Contacto</title>
+<body background="images/fondo_contacto.jpg" rightmargin="90"leftmargin="85" topmargin="40">
+<p align="center"><font face ="Trajan Pro" color ="white"><h1>Contacto</h1></font></p>
+<br>
+<p><font face="Myriad Pro" size="4" color="white">
+<form action="mailto:info@amenecer.com" method="post">
+<label>Nombre:</label><input type=text name=nombre><br>
+<label>E-mail:</label> <input type=email name=correo><br>
+¿Desea recibir información en su correo: <input type=radio name=info value=afirmativo checked> Si <input type=radio name=info value=negativo> No<br>
+<label>Seleccione los destinos que le gustaría visitar:</label><input type=checkbox name=barcelona>Barcelona<input type=checkbox name=paris>París <input type=checkbox name=roma>Roma <input type=checkbox name=londres>Londres
+<br>
+<label>Seleccione un trimestre: </label><select name=periodo>
+				<option>Enero-Marzo</option>
+				<option>Abril-Junio</option>
+				<option>Julio-Septiembre</option>
+				<option>Octubre-Diciembre</option>
+</select>
+<br>
+Escriba su consulta: <textarea name=consulta required rows=10 cols=35></textarea><br><br>
+Ingrese su código de socio: <input type=password name=codigo size=6 maxlength=4> <label>*Código que figura en su recibo</label><br>
+Vencimiento de su tarjeta de socio: <input type=date name=vto><br>Nombre: <input type=text name=nombre><br><br>
+<input type=reset value="Borrar todo"> <input type=submit value="Enviar">
+</form>
+</font>
+</body>
+</html>
